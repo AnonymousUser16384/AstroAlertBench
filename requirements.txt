@@ -1,0 +1,16 @@
+# Core: manifests, montage I/O, scoring
+python-dotenv>=1.0
+pandas>=2.0
+numpy>=1.24
+Pillow>=10.0
+
+# Tinker stack (imported by run/retry scripts even when using another --backend)
+tinker>=0.10
+tinker-cookbook>=0.1
+transformers>=4.40
+torch
+
+# Other API backends (used when passing --backend openai|google|anthropic)
+openai>=2.0
+google-genai>=1.0
+anthropic>=0.40

@@ -1,0 +1,44 @@
+{
+  "oid": "ZTF23abpnliy",
+  "model_slug": "gpt54_high",
+  "source_jsonl": "results/benchmark_gpt54_high.jsonl",
+  "first_pass": {
+    "oid": "ZTF23abpnliy",
+    "target_class": "bogus",
+    "montage_path": "F:\\ZTF_Adjusted_Dataset\\stamps_llm_updated\\bogus\\ZTF23abpnliy\\montage.png",
+    "raw_text": "{\n  \"Part A\": {\n    \"filter_band\": \"r\",\n    \"subtraction_sign\": \"positive\",\n    \"magpsf\": 16.5637,\n    \"sigmapsf\": 0.207244,\n    \"ndethist\": 2,\n    \"ncovhist\": 1740\n  },\n  \"Part B\": {\n    \"key_evidence\": \"The central residual in the difference image is a strong positive/negative dipole rather than a clean isolated PSF. In the science and template cutouts there is already a point-like source at/near the center, consistent with a small positional mismatch instead of a new source. The field is crowded with stars, the nearest PS1 match is stellar (sgscore1=1, though offset by 4.75 arcsec), and ndethist is only 2 despite very large coverage (ncovhist=1740).\",\n    \"leading_interpretation_and_support\": \"Most consistent with Bogus: a subtraction artifact from astrometric/PSF mismatch, possibly involving a stellar source in a crowded field. The dipole morphology and the presence of a central source in both science and template argue against a clean astrophysical brightening. There is no obvious host galaxy or isolated new point source.\",\n    \"alternative_analysis\": \"A weaker alternative is a real mover or stellar variable, since ndethist is very low and the source environment is stellar. However, the science/template pair do not show a convincing new offset object absent from the template, and the subtraction is dominated by a symmetric dipole rather than a single positive residual, so those interpretations are less favored.\",\n    \"self_score_key_evidence\": 4,\n    \"self_score_leading_interpretation_and_support\": 4,\n    \"self_score_alternative_analysis\": 3\n  },\n  \"Part C\": {\n    \"stage1\": \"artifact\",\n    \"stage2\": \"N/A\",\n    \"stage3\": \"N/A\"\n  }\n}",
+    "answer_text": "{\n  \"Part A\": {\n    \"filter_band\": \"r\",\n    \"subtraction_sign\": \"positive\",\n    \"magpsf\": 16.5637,\n    \"sigmapsf\": 0.207244,\n    \"ndethist\": 2,\n    \"ncovhist\": 1740\n  },\n  \"Part B\": {\n    \"key_evidence\": \"The central residual in the difference image is a strong positive/negative dipole rather than a clean isolated PSF. In the science and template cutouts there is already a point-like source at/near the center, consistent with a small positional mismatch instead of a new source. The field is crowded with stars, the nearest PS1 match is stellar (sgscore1=1, though offset by 4.75 arcsec), and ndethist is only 2 despite very large coverage (ncovhist=1740).\",\n    \"leading_interpretation_and_support\": \"Most consistent with Bogus: a subtraction artifact from astrometric/PSF mismatch, possibly involving a stellar source in a crowded field. The dipole morphology and the presence of a central source in both science and template argue against a clean astrophysical brightening. There is no obvious host galaxy or isolated new point source.\",\n    \"alternative_analysis\": \"A weaker alternative is a real mover or stellar variable, since ndethist is very low and the source environment is stellar. However, the science/template pair do not show a convincing new offset object absent from the template, and the subtraction is dominated by a symmetric dipole rather than a single positive residual, so those interpretations are less favored.\",\n    \"self_score_key_evidence\": 4,\n    \"self_score_leading_interpretation_and_support\": 4,\n    \"self_score_alternative_analysis\": 3\n  },\n  \"Part C\": {\n    \"stage1\": \"artifact\",\n    \"stage2\": \"N/A\",\n    \"stage3\": \"N/A\"\n  }\n}",
+    "n_output_tokens": 3501,
+    "n_answer_tokens": 418,
+    "n_reasoning_tokens": 3083,
+    "n_prompt_tokens": 3365,
+    "max_tokens": 20000,
+    "truncated": false,
+    "finish_reason": "completed",
+    "reasoning_effort": "high",
+    "model": "gpt-5.4",
+    "parsed": {
+      "Part A": {
+        "filter_band": "r",
+        "subtraction_sign": "positive",
+        "magpsf": 16.5637,
+        "sigmapsf": 0.207244,
+        "ndethist": 2,
+        "ncovhist": 1740
+      },
+      "Part B": {
+        "key_evidence": "The central residual in the difference image is a strong positive/negative dipole rather than a clean isolated PSF. In the science and template cutouts there is already a point-like source at/near the center, consistent with a small positional mismatch instead of a new source. The field is crowded with stars, the nearest PS1 match is stellar (sgscore1=1, though offset by 4.75 arcsec), and ndethist is only 2 despite very large coverage (ncovhist=1740).",
+        "leading_interpretation_and_support": "Most consistent with Bogus: a subtraction artifact from astrometric/PSF mismatch, possibly involving a stellar source in a crowded field. The dipole morphology and the presence of a central source in both science and template argue against a clean astrophysical brightening. There is no obvious host galaxy or isolated new point source.",
+        "alternative_analysis": "A weaker alternative is a real mover or stellar variable, since ndethist is very low and the source environment is stellar. However, the science/template pair do not show a convincing new offset object absent from the template, and the subtraction is dominated by a symmetric dipole rather than a single positive residual, so those interpretations are less favored.",
+        "self_score_key_evidence": 4,
+        "self_score_leading_interpretation_and_support": 4,
+        "self_score_alternative_analysis": 3
+      },
+      "Part C": {
+        "stage1": "artifact",
+        "stage2": "N/A",
+        "stage3": "N/A"
+      }
+    }
+  }
+}

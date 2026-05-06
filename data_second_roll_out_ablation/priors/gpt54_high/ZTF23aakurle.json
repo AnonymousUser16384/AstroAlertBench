@@ -1,0 +1,44 @@
+{
+  "oid": "ZTF23aakurle",
+  "model_slug": "gpt54_high",
+  "source_jsonl": "results/benchmark_gpt54_high.jsonl",
+  "first_pass": {
+    "oid": "ZTF23aakurle",
+    "target_class": "bogus",
+    "montage_path": "F:\\ZTF_Adjusted_Dataset\\stamps_llm_updated\\bogus\\ZTF23aakurle\\montage.png",
+    "raw_text": "{\n  \"Part A\": {\n    \"filter_band\": \"g\",\n    \"subtraction_sign\": \"negative\",\n    \"magpsf\": 18.8835,\n    \"sigmapsf\": 0.155692,\n    \"ndethist\": 4,\n    \"ncovhist\": 1598\n  },\n  \"Part B\": {\n    \"key_evidence\": \"The centered location is occupied by a persistent source in both Science and Template, in a crowded/blended scene with a nearby companion. The Difference panel does not show a clean compact centered negative PSF; it looks dominated by noise/subtraction structure. Metadata also suggest a non-clean reference association (classtar 0.429, sgscore1 0.226 at 1.65 arcsec, chinr 7.409). ndethist=4 but deltajd=0 indicates only same-night repetition.\",\n    \"leading_interpretation_and_support\": \"The alert is most consistent with a bogus subtraction around a blended persistent source. A true fading source should leave a clearer centered negative residual, but the cutouts are nearly unchanged between Science and Template and the subtraction image is not convincingly point-like. There is also no coherent Science-Template positional offset to support a solar-system interpretation.\",\n    \"alternative_analysis\": \"A weaker alternative is real astrophysical fading of the persistent central source, possibly AGN-like or a blended variable star, since the alert is negative and a source is present in the Template. However, the difference residual is too indistinct to support that confidently.\",\n    \"self_score_key_evidence\": 4,\n    \"self_score_leading_interpretation_and_support\": 4,\n    \"self_score_alternative_analysis\": 3\n  },\n  \"Part C\": {\n    \"stage1\": \"artifact\",\n    \"stage2\": \"N/A\",\n    \"stage3\": \"N/A\"\n  }\n}",
+    "answer_text": "{\n  \"Part A\": {\n    \"filter_band\": \"g\",\n    \"subtraction_sign\": \"negative\",\n    \"magpsf\": 18.8835,\n    \"sigmapsf\": 0.155692,\n    \"ndethist\": 4,\n    \"ncovhist\": 1598\n  },\n  \"Part B\": {\n    \"key_evidence\": \"The centered location is occupied by a persistent source in both Science and Template, in a crowded/blended scene with a nearby companion. The Difference panel does not show a clean compact centered negative PSF; it looks dominated by noise/subtraction structure. Metadata also suggest a non-clean reference association (classtar 0.429, sgscore1 0.226 at 1.65 arcsec, chinr 7.409). ndethist=4 but deltajd=0 indicates only same-night repetition.\",\n    \"leading_interpretation_and_support\": \"The alert is most consistent with a bogus subtraction around a blended persistent source. A true fading source should leave a clearer centered negative residual, but the cutouts are nearly unchanged between Science and Template and the subtraction image is not convincingly point-like. There is also no coherent Science-Template positional offset to support a solar-system interpretation.\",\n    \"alternative_analysis\": \"A weaker alternative is real astrophysical fading of the persistent central source, possibly AGN-like or a blended variable star, since the alert is negative and a source is present in the Template. However, the difference residual is too indistinct to support that confidently.\",\n    \"self_score_key_evidence\": 4,\n    \"self_score_leading_interpretation_and_support\": 4,\n    \"self_score_alternative_analysis\": 3\n  },\n  \"Part C\": {\n    \"stage1\": \"artifact\",\n    \"stage2\": \"N/A\",\n    \"stage3\": \"N/A\"\n  }\n}",
+    "n_output_tokens": 6096,
+    "n_answer_tokens": 400,
+    "n_reasoning_tokens": 5696,
+    "n_prompt_tokens": 3362,
+    "max_tokens": 20000,
+    "truncated": false,
+    "finish_reason": "completed",
+    "reasoning_effort": "high",
+    "model": "gpt-5.4",
+    "parsed": {
+      "Part A": {
+        "filter_band": "g",
+        "subtraction_sign": "negative",
+        "magpsf": 18.8835,
+        "sigmapsf": 0.155692,
+        "ndethist": 4,
+        "ncovhist": 1598
+      },
+      "Part B": {
+        "key_evidence": "The centered location is occupied by a persistent source in both Science and Template, in a crowded/blended scene with a nearby companion. The Difference panel does not show a clean compact centered negative PSF; it looks dominated by noise/subtraction structure. Metadata also suggest a non-clean reference association (classtar 0.429, sgscore1 0.226 at 1.65 arcsec, chinr 7.409). ndethist=4 but deltajd=0 indicates only same-night repetition.",
+        "leading_interpretation_and_support": "The alert is most consistent with a bogus subtraction around a blended persistent source. A true fading source should leave a clearer centered negative residual, but the cutouts are nearly unchanged between Science and Template and the subtraction image is not convincingly point-like. There is also no coherent Science-Template positional offset to support a solar-system interpretation.",
+        "alternative_analysis": "A weaker alternative is real astrophysical fading of the persistent central source, possibly AGN-like or a blended variable star, since the alert is negative and a source is present in the Template. However, the difference residual is too indistinct to support that confidently.",
+        "self_score_key_evidence": 4,
+        "self_score_leading_interpretation_and_support": 4,
+        "self_score_alternative_analysis": 3
+      },
+      "Part C": {
+        "stage1": "artifact",
+        "stage2": "N/A",
+        "stage3": "N/A"
+      }
+    }
+  }
+}

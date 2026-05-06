@@ -1,0 +1,44 @@
+{
+  "oid": "ZTF24abklfav",
+  "model_slug": "gpt54_none",
+  "source_jsonl": "results/benchmark_gpt54_none.jsonl",
+  "first_pass": {
+    "oid": "ZTF24abklfav",
+    "target_class": "SN",
+    "montage_path": "F:\\ZTF_Adjusted_Dataset\\stamps_llm_updated\\SN\\ZTF24abklfav\\montage.png",
+    "raw_text": "{\n  \"Part A\": {\n    \"filter_band\": \"r\",\n    \"subtraction_sign\": \"positive\",\n    \"magpsf\": 21.1271,\n    \"sigmapsf\": 0.134111,\n    \"ndethist\": 3,\n    \"ncovhist\": 1509\n  },\n  \"Part B\": {\n    \"key_evidence\": \"The central position shows a source in the science image and a similarly placed source in the template, while the difference image does not show a clean isolated stellar residual; it is very weak/noisy. The candidate is positive-subtraction, faint (magpsf 21.13), with only 3 detections over 1.23 d. The nearest PS1 source is very close (0.56 arcsec) and non-stellar by sgscore1=0, consistent with a compact galaxy-like counterpart.\",\n    \"leading_interpretation_and_support\": \"Most consistent with an astrophysical nuclear/host-associated variable, best labeled AGN. The source appears persistent in both science and template rather than a new isolated transient, and there is no obvious science-template positional offset or streak to support a moving object. The very close PS1 counterpart is galaxy-like, favoring variability from a persistent extragalactic source over a Galactic variable star.\",\n    \"alternative_analysis\": \"A supernova is an alternative if the residual is a faint point source on top of a compact host, but the cutouts do not clearly show a new off-nuclear source or a strong clean positive residual. Bogus is less favored because the science/template source alignment looks coherent rather than a pure subtraction artifact, though the difference image is low S/N.\",\n    \"self_score_key_evidence\": 4,\n    \"self_score_leading_interpretation_and_support\": 3,\n    \"self_score_alternative_analysis\": 3\n  },\n  \"Part C\": {\n    \"stage1\": \"real_object\",\n    \"stage2\": \"astrophysical\",\n    \"stage3\": \"AGN\"\n  }\n}",
+    "answer_text": "{\n  \"Part A\": {\n    \"filter_band\": \"r\",\n    \"subtraction_sign\": \"positive\",\n    \"magpsf\": 21.1271,\n    \"sigmapsf\": 0.134111,\n    \"ndethist\": 3,\n    \"ncovhist\": 1509\n  },\n  \"Part B\": {\n    \"key_evidence\": \"The central position shows a source in the science image and a similarly placed source in the template, while the difference image does not show a clean isolated stellar residual; it is very weak/noisy. The candidate is positive-subtraction, faint (magpsf 21.13), with only 3 detections over 1.23 d. The nearest PS1 source is very close (0.56 arcsec) and non-stellar by sgscore1=0, consistent with a compact galaxy-like counterpart.\",\n    \"leading_interpretation_and_support\": \"Most consistent with an astrophysical nuclear/host-associated variable, best labeled AGN. The source appears persistent in both science and template rather than a new isolated transient, and there is no obvious science-template positional offset or streak to support a moving object. The very close PS1 counterpart is galaxy-like, favoring variability from a persistent extragalactic source over a Galactic variable star.\",\n    \"alternative_analysis\": \"A supernova is an alternative if the residual is a faint point source on top of a compact host, but the cutouts do not clearly show a new off-nuclear source or a strong clean positive residual. Bogus is less favored because the science/template source alignment looks coherent rather than a pure subtraction artifact, though the difference image is low S/N.\",\n    \"self_score_key_evidence\": 4,\n    \"self_score_leading_interpretation_and_support\": 3,\n    \"self_score_alternative_analysis\": 3\n  },\n  \"Part C\": {\n    \"stage1\": \"real_object\",\n    \"stage2\": \"astrophysical\",\n    \"stage3\": \"AGN\"\n  }\n}",
+    "n_output_tokens": 427,
+    "n_answer_tokens": 427,
+    "n_reasoning_tokens": 0,
+    "n_prompt_tokens": 3371,
+    "max_tokens": 20000,
+    "truncated": false,
+    "finish_reason": "completed",
+    "reasoning_effort": "none",
+    "model": "gpt-5.4",
+    "parsed": {
+      "Part A": {
+        "filter_band": "r",
+        "subtraction_sign": "positive",
+        "magpsf": 21.1271,
+        "sigmapsf": 0.134111,
+        "ndethist": 3,
+        "ncovhist": 1509
+      },
+      "Part B": {
+        "key_evidence": "The central position shows a source in the science image and a similarly placed source in the template, while the difference image does not show a clean isolated stellar residual; it is very weak/noisy. The candidate is positive-subtraction, faint (magpsf 21.13), with only 3 detections over 1.23 d. The nearest PS1 source is very close (0.56 arcsec) and non-stellar by sgscore1=0, consistent with a compact galaxy-like counterpart.",
+        "leading_interpretation_and_support": "Most consistent with an astrophysical nuclear/host-associated variable, best labeled AGN. The source appears persistent in both science and template rather than a new isolated transient, and there is no obvious science-template positional offset or streak to support a moving object. The very close PS1 counterpart is galaxy-like, favoring variability from a persistent extragalactic source over a Galactic variable star.",
+        "alternative_analysis": "A supernova is an alternative if the residual is a faint point source on top of a compact host, but the cutouts do not clearly show a new off-nuclear source or a strong clean positive residual. Bogus is less favored because the science/template source alignment looks coherent rather than a pure subtraction artifact, though the difference image is low S/N.",
+        "self_score_key_evidence": 4,
+        "self_score_leading_interpretation_and_support": 3,
+        "self_score_alternative_analysis": 3
+      },
+      "Part C": {
+        "stage1": "real_object",
+        "stage2": "astrophysical",
+        "stage3": "AGN"
+      }
+    }
+  }
+}

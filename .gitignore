@@ -1,0 +1,53 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.cursor/
+.idea/
+.vscode/
+*.fits
+stamps_original/
+stamps_llm/
+
+# Primary-benchmark PNG montages: host copy from Hugging Face (see README).
+stamps_llm_updated/
+
+# LaTeX build artifacts (REPORT.tex)
+*.aux
+*.log
+*.out
+*.toc
+*.fdb_latexmk
+*.fls
+*.synctex.gz
+
+# Intermediate enrichment shards (regenerate with run_enrich_parallel.py)
+data/enriched_parts*/
+
+# Backup manifests
+data/*_backup_*.csv
+
+# Model API outputs (regenerate with run_tinker_benchmark.py)
+results/
+runs/
+
+# Results (regenerate with evaluate.py & skill log-experiment)
+visualization/
+results_comparison/
+viz/
+
+# Files from other projects for reference
+
+
+# Temporary files
+temporary_files/
+
+# Website
+website/
+
+# Human
+human_samples/
+
+# Local Hugging Face dataset working clones (not part of source release)
+_hf_*/

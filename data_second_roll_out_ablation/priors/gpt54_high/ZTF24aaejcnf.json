@@ -1,0 +1,44 @@
+{
+  "oid": "ZTF24aaejcnf",
+  "model_slug": "gpt54_high",
+  "source_jsonl": "results/benchmark_gpt54_high.jsonl",
+  "first_pass": {
+    "oid": "ZTF24aaejcnf",
+    "target_class": "bogus",
+    "montage_path": "F:\\ZTF_Adjusted_Dataset\\stamps_llm_updated\\bogus\\ZTF24aaejcnf\\montage.png",
+    "raw_text": "{\n  \"Part A\": {\n    \"filter_band\": \"g\",\n    \"subtraction_sign\": \"positive\",\n    \"magpsf\": 16.413,\n    \"sigmapsf\": 0.117491,\n    \"ndethist\": 1,\n    \"ncovhist\": 612\n  },\n  \"Part B\": {\n    \"key_evidence\": \"The alert is a positive g-band detection at magpsf 16.413. In the cutouts, the central source appears point-like in Science and not clearly present at the same position in the Template, with a compact localized residual in the Difference image. The nearest supplied PS1 source is offset by 5.40 arcsec, so there is no clear persistent cataloged counterpart exactly at the alert position. ndethist=1, deltajd=0, and ncovhist=612 indicate only a single linked detection despite extensive coverage.\",\n    \"leading_interpretation_and_support\": \"Most consistent with a real solar-system object (Asteroid). The image morphology looks like a compact transient-like point source without an obvious host galaxy or coincident persistent stellar/AGN counterpart, and the very low ndethist under heavy historical coverage strongly favors a moving object over repeat variability at a fixed sky position. The nearby PS1 source is far enough away to be plausibly unrelated line-of-sight context rather than the counterpart.\",\n    \"alternative_analysis\": \"A plausible alternative is a Galactic variable/outburst from a very faint quiescent star, or less likely a subtraction issue caused by nearby bright stars in a crowded field. However, the lack of a coincident reference source or host, plus the single-detection history, makes those less favored than a mover interpretation.\",\n    \"self_score_key_evidence\": 4,\n    \"self_score_leading_interpretation_and_support\": 4,\n    \"self_score_alternative_analysis\": 3\n  },\n  \"Part C\": {\n    \"stage1\": \"real_object\",\n    \"stage2\": \"solar_system\",\n    \"stage3\": \"N/A\"\n  }\n}",
+    "answer_text": "{\n  \"Part A\": {\n    \"filter_band\": \"g\",\n    \"subtraction_sign\": \"positive\",\n    \"magpsf\": 16.413,\n    \"sigmapsf\": 0.117491,\n    \"ndethist\": 1,\n    \"ncovhist\": 612\n  },\n  \"Part B\": {\n    \"key_evidence\": \"The alert is a positive g-band detection at magpsf 16.413. In the cutouts, the central source appears point-like in Science and not clearly present at the same position in the Template, with a compact localized residual in the Difference image. The nearest supplied PS1 source is offset by 5.40 arcsec, so there is no clear persistent cataloged counterpart exactly at the alert position. ndethist=1, deltajd=0, and ncovhist=612 indicate only a single linked detection despite extensive coverage.\",\n    \"leading_interpretation_and_support\": \"Most consistent with a real solar-system object (Asteroid). The image morphology looks like a compact transient-like point source without an obvious host galaxy or coincident persistent stellar/AGN counterpart, and the very low ndethist under heavy historical coverage strongly favors a moving object over repeat variability at a fixed sky position. The nearby PS1 source is far enough away to be plausibly unrelated line-of-sight context rather than the counterpart.\",\n    \"alternative_analysis\": \"A plausible alternative is a Galactic variable/outburst from a very faint quiescent star, or less likely a subtraction issue caused by nearby bright stars in a crowded field. However, the lack of a coincident reference source or host, plus the single-detection history, makes those less favored than a mover interpretation.\",\n    \"self_score_key_evidence\": 4,\n    \"self_score_leading_interpretation_and_support\": 4,\n    \"self_score_alternative_analysis\": 3\n  },\n  \"Part C\": {\n    \"stage1\": \"real_object\",\n    \"stage2\": \"solar_system\",\n    \"stage3\": \"N/A\"\n  }\n}",
+    "n_output_tokens": 4932,
+    "n_answer_tokens": 437,
+    "n_reasoning_tokens": 4495,
+    "n_prompt_tokens": 3362,
+    "max_tokens": 20000,
+    "truncated": false,
+    "finish_reason": "completed",
+    "reasoning_effort": "high",
+    "model": "gpt-5.4",
+    "parsed": {
+      "Part A": {
+        "filter_band": "g",
+        "subtraction_sign": "positive",
+        "magpsf": 16.413,
+        "sigmapsf": 0.117491,
+        "ndethist": 1,
+        "ncovhist": 612
+      },
+      "Part B": {
+        "key_evidence": "The alert is a positive g-band detection at magpsf 16.413. In the cutouts, the central source appears point-like in Science and not clearly present at the same position in the Template, with a compact localized residual in the Difference image. The nearest supplied PS1 source is offset by 5.40 arcsec, so there is no clear persistent cataloged counterpart exactly at the alert position. ndethist=1, deltajd=0, and ncovhist=612 indicate only a single linked detection despite extensive coverage.",
+        "leading_interpretation_and_support": "Most consistent with a real solar-system object (Asteroid). The image morphology looks like a compact transient-like point source without an obvious host galaxy or coincident persistent stellar/AGN counterpart, and the very low ndethist under heavy historical coverage strongly favors a moving object over repeat variability at a fixed sky position. The nearby PS1 source is far enough away to be plausibly unrelated line-of-sight context rather than the counterpart.",
+        "alternative_analysis": "A plausible alternative is a Galactic variable/outburst from a very faint quiescent star, or less likely a subtraction issue caused by nearby bright stars in a crowded field. However, the lack of a coincident reference source or host, plus the single-detection history, makes those less favored than a mover interpretation.",
+        "self_score_key_evidence": 4,
+        "self_score_leading_interpretation_and_support": 4,
+        "self_score_alternative_analysis": 3
+      },
+      "Part C": {
+        "stage1": "real_object",
+        "stage2": "solar_system",
+        "stage3": "N/A"
+      }
+    }
+  }
+}

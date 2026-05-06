@@ -1,0 +1,31 @@
+{
+  "classes": {
+    "SN": {
+      "count": 500,
+      "min_probability_among_selected": 0.8961066,
+      "max_probability_among_selected": 0.953128
+    },
+    "AGN": {
+      "count": 500,
+      "min_probability_among_selected": 0.85607815,
+      "max_probability_among_selected": 0.89874953
+    },
+    "VS": {
+      "count": 500,
+      "min_probability_among_selected": 0.9426872,
+      "max_probability_among_selected": 0.9689228
+    },
+    "asteroid": {
+      "count": 500,
+      "min_probability_among_selected": 1.0,
+      "max_probability_among_selected": 1.0
+    },
+    "bogus": {
+      "count": 500,
+      "min_probability_among_selected": 0.95108193,
+      "max_probability_among_selected": 0.97727555
+    }
+  },
+  "classifier": "stamp_classifier",
+  "min_probability_floor": 0.8
+}

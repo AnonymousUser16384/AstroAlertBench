@@ -1,0 +1,44 @@
+{
+  "oid": "ZTF20aabrbfq",
+  "model_slug": "gpt54_high",
+  "source_jsonl": "results/benchmark_gpt54_high.jsonl",
+  "first_pass": {
+    "oid": "ZTF20aabrbfq",
+    "target_class": "bogus",
+    "montage_path": "F:\\ZTF_Adjusted_Dataset\\stamps_llm_updated\\bogus\\ZTF20aabrbfq\\montage.png",
+    "raw_text": "{\n  \"Part A\": {\n    \"filter_band\": \"r\",\n    \"subtraction_sign\": \"negative\",\n    \"magpsf\": 14.6148,\n    \"sigmapsf\": 0.127667,\n    \"ndethist\": 1,\n    \"ncovhist\": 159\n  },\n  \"Part B\": {\n    \"key_evidence\": \"At the central position, the Template shows a compact persistent source while the Science cutout is much fainter/near-absent there, consistent with isdiffpos=f (a negative subtraction). With ndethist=1 I checked for a mover signature, but the Science cutout does not show a clearly displaced point source or streak relative to the Template. The source appears compact/starlike rather than clearly host-dominated (classtar=1, sharpnr=0.157), while the nearest PS1 match is only ambiguous (sgscore1=0.5 at 1.8 arcsec).\",\n    \"leading_interpretation_and_support\": \"The alert is most consistent with a real astrophysical dimming of a persistent point source, best classified here as a variable_star. Negative subtraction on a pre-existing compact source argues against supernova, and the lack of an offset/streak in Science argues against asteroid. AGN is less favored because the cutout looks more point-like than clearly nuclear in an extended host, and the single isolated detection is not especially AGN-like.\",\n    \"alternative_analysis\": \"A plausible alternative is AGN if the central template source is an unresolved galaxy nucleus, or possibly a subtraction artifact because this is only one historical detection and the difference residual is not very prominent in the small stamp. Supernova is disfavored because the signal is negative rather than a new positive source.\",\n    \"self_score_key_evidence\": 4,\n    \"self_score_leading_interpretation_and_support\": 4,\n    \"self_score_alternative_analysis\": 3\n  },\n  \"Part C\": {\n    \"stage1\": \"real_object\",\n    \"stage2\": \"astrophysical\",\n    \"stage3\": \"variable_star\"\n  }\n}",
+    "answer_text": "{\n  \"Part A\": {\n    \"filter_band\": \"r\",\n    \"subtraction_sign\": \"negative\",\n    \"magpsf\": 14.6148,\n    \"sigmapsf\": 0.127667,\n    \"ndethist\": 1,\n    \"ncovhist\": 159\n  },\n  \"Part B\": {\n    \"key_evidence\": \"At the central position, the Template shows a compact persistent source while the Science cutout is much fainter/near-absent there, consistent with isdiffpos=f (a negative subtraction). With ndethist=1 I checked for a mover signature, but the Science cutout does not show a clearly displaced point source or streak relative to the Template. The source appears compact/starlike rather than clearly host-dominated (classtar=1, sharpnr=0.157), while the nearest PS1 match is only ambiguous (sgscore1=0.5 at 1.8 arcsec).\",\n    \"leading_interpretation_and_support\": \"The alert is most consistent with a real astrophysical dimming of a persistent point source, best classified here as a variable_star. Negative subtraction on a pre-existing compact source argues against supernova, and the lack of an offset/streak in Science argues against asteroid. AGN is less favored because the cutout looks more point-like than clearly nuclear in an extended host, and the single isolated detection is not especially AGN-like.\",\n    \"alternative_analysis\": \"A plausible alternative is AGN if the central template source is an unresolved galaxy nucleus, or possibly a subtraction artifact because this is only one historical detection and the difference residual is not very prominent in the small stamp. Supernova is disfavored because the signal is negative rather than a new positive source.\",\n    \"self_score_key_evidence\": 4,\n    \"self_score_leading_interpretation_and_support\": 4,\n    \"self_score_alternative_analysis\": 3\n  },\n  \"Part C\": {\n    \"stage1\": \"real_object\",\n    \"stage2\": \"astrophysical\",\n    \"stage3\": \"variable_star\"\n  }\n}",
+    "n_output_tokens": 5000,
+    "n_answer_tokens": 449,
+    "n_reasoning_tokens": 4551,
+    "n_prompt_tokens": 3361,
+    "max_tokens": 20000,
+    "truncated": false,
+    "finish_reason": "completed",
+    "reasoning_effort": "high",
+    "model": "gpt-5.4",
+    "parsed": {
+      "Part A": {
+        "filter_band": "r",
+        "subtraction_sign": "negative",
+        "magpsf": 14.6148,
+        "sigmapsf": 0.127667,
+        "ndethist": 1,
+        "ncovhist": 159
+      },
+      "Part B": {
+        "key_evidence": "At the central position, the Template shows a compact persistent source while the Science cutout is much fainter/near-absent there, consistent with isdiffpos=f (a negative subtraction). With ndethist=1 I checked for a mover signature, but the Science cutout does not show a clearly displaced point source or streak relative to the Template. The source appears compact/starlike rather than clearly host-dominated (classtar=1, sharpnr=0.157), while the nearest PS1 match is only ambiguous (sgscore1=0.5 at 1.8 arcsec).",
+        "leading_interpretation_and_support": "The alert is most consistent with a real astrophysical dimming of a persistent point source, best classified here as a variable_star. Negative subtraction on a pre-existing compact source argues against supernova, and the lack of an offset/streak in Science argues against asteroid. AGN is less favored because the cutout looks more point-like than clearly nuclear in an extended host, and the single isolated detection is not especially AGN-like.",
+        "alternative_analysis": "A plausible alternative is AGN if the central template source is an unresolved galaxy nucleus, or possibly a subtraction artifact because this is only one historical detection and the difference residual is not very prominent in the small stamp. Supernova is disfavored because the signal is negative rather than a new positive source.",
+        "self_score_key_evidence": 4,
+        "self_score_leading_interpretation_and_support": 4,
+        "self_score_alternative_analysis": 3
+      },
+      "Part C": {
+        "stage1": "real_object",
+        "stage2": "astrophysical",
+        "stage3": "variable_star"
+      }
+    }
+  }
+}

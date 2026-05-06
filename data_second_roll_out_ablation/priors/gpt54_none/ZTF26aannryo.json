@@ -1,0 +1,44 @@
+{
+  "oid": "ZTF26aannryo",
+  "model_slug": "gpt54_none",
+  "source_jsonl": "results/benchmark_gpt54_none.jsonl",
+  "first_pass": {
+    "oid": "ZTF26aannryo",
+    "target_class": "bogus",
+    "montage_path": "F:\\ZTF_Adjusted_Dataset\\stamps_llm_updated\\bogus\\ZTF26aannryo\\montage.png",
+    "raw_text": "{\n  \"Part A\": {\n    \"filter_band\": \"g\",\n    \"subtraction_sign\": \"positive\",\n    \"magpsf\": 19.8348,\n    \"sigmapsf\": 0.2166,\n    \"ndethist\": 16,\n    \"ncovhist\": 2185\n  },\n  \"Part B\": {\n    \"key_evidence\": \"The central source is not a clean isolated point source. In the science and reference cutouts there is strong saturation/bright structure near the center, and the difference image shows a broad striped residual rather than a compact PSF-like transient. The nearest PS1 source is far from the alert position (distpsnr1 14.1 arcsec), so catalog morphology is not very informative. Although ndethist=16 indicates repeated detections at this sky location, the image morphology is dominated by subtraction artifacts around a bright source.\",\n    \"leading_interpretation_and_support\": \"Most consistent with a bogus/artifact alert. The difference cutout lacks a localized stellar residual at the exact center and instead shows extended ripple/striping consistent with poor subtraction near a bright or saturated source. The science/reference panels also suggest problematic image structure rather than a new astrophysical point source or a coherent moving object.\",\n    \"alternative_analysis\": \"A weaker alternative is astrophysical variability from a source embedded in or adjacent to a bright object, since ndethist is moderately high and the subtraction is positive. However, the cutouts do not show a convincing centered transient or host-associated residual, so this is less supported than an artifact interpretation.\",\n    \"self_score_key_evidence\": 4,\n    \"self_score_leading_interpretation_and_support\": 4,\n    \"self_score_alternative_analysis\": 3\n  },\n  \"Part C\": {\n    \"stage1\": \"artifact\",\n    \"stage2\": \"N/A\",\n    \"stage3\": \"N/A\"\n  }\n}",
+    "answer_text": "{\n  \"Part A\": {\n    \"filter_band\": \"g\",\n    \"subtraction_sign\": \"positive\",\n    \"magpsf\": 19.8348,\n    \"sigmapsf\": 0.2166,\n    \"ndethist\": 16,\n    \"ncovhist\": 2185\n  },\n  \"Part B\": {\n    \"key_evidence\": \"The central source is not a clean isolated point source. In the science and reference cutouts there is strong saturation/bright structure near the center, and the difference image shows a broad striped residual rather than a compact PSF-like transient. The nearest PS1 source is far from the alert position (distpsnr1 14.1 arcsec), so catalog morphology is not very informative. Although ndethist=16 indicates repeated detections at this sky location, the image morphology is dominated by subtraction artifacts around a bright source.\",\n    \"leading_interpretation_and_support\": \"Most consistent with a bogus/artifact alert. The difference cutout lacks a localized stellar residual at the exact center and instead shows extended ripple/striping consistent with poor subtraction near a bright or saturated source. The science/reference panels also suggest problematic image structure rather than a new astrophysical point source or a coherent moving object.\",\n    \"alternative_analysis\": \"A weaker alternative is astrophysical variability from a source embedded in or adjacent to a bright object, since ndethist is moderately high and the subtraction is positive. However, the cutouts do not show a convincing centered transient or host-associated residual, so this is less supported than an artifact interpretation.\",\n    \"self_score_key_evidence\": 4,\n    \"self_score_leading_interpretation_and_support\": 4,\n    \"self_score_alternative_analysis\": 3\n  },\n  \"Part C\": {\n    \"stage1\": \"artifact\",\n    \"stage2\": \"N/A\",\n    \"stage3\": \"N/A\"\n  }\n}",
+    "n_output_tokens": 405,
+    "n_answer_tokens": 405,
+    "n_reasoning_tokens": 0,
+    "n_prompt_tokens": 3370,
+    "max_tokens": 20000,
+    "truncated": false,
+    "finish_reason": "completed",
+    "reasoning_effort": "none",
+    "model": "gpt-5.4",
+    "parsed": {
+      "Part A": {
+        "filter_band": "g",
+        "subtraction_sign": "positive",
+        "magpsf": 19.8348,
+        "sigmapsf": 0.2166,
+        "ndethist": 16,
+        "ncovhist": 2185
+      },
+      "Part B": {
+        "key_evidence": "The central source is not a clean isolated point source. In the science and reference cutouts there is strong saturation/bright structure near the center, and the difference image shows a broad striped residual rather than a compact PSF-like transient. The nearest PS1 source is far from the alert position (distpsnr1 14.1 arcsec), so catalog morphology is not very informative. Although ndethist=16 indicates repeated detections at this sky location, the image morphology is dominated by subtraction artifacts around a bright source.",
+        "leading_interpretation_and_support": "Most consistent with a bogus/artifact alert. The difference cutout lacks a localized stellar residual at the exact center and instead shows extended ripple/striping consistent with poor subtraction near a bright or saturated source. The science/reference panels also suggest problematic image structure rather than a new astrophysical point source or a coherent moving object.",
+        "alternative_analysis": "A weaker alternative is astrophysical variability from a source embedded in or adjacent to a bright object, since ndethist is moderately high and the subtraction is positive. However, the cutouts do not show a convincing centered transient or host-associated residual, so this is less supported than an artifact interpretation.",
+        "self_score_key_evidence": 4,
+        "self_score_leading_interpretation_and_support": 4,
+        "self_score_alternative_analysis": 3
+      },
+      "Part C": {
+        "stage1": "artifact",
+        "stage2": "N/A",
+        "stage3": "N/A"
+      }
+    }
+  }
+}
