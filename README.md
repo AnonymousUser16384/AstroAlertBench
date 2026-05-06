@@ -5,7 +5,7 @@
 > **Codebase for the paper _AstroAlertBench: Evaluating the Accuracy, Reasoning, and Honesty of Multimodal LLMs in Astronomical Classification_.**
 > A multimodal benchmark of first-detection ZTF alerts evaluated on frontier closed-source and open-weight VLMs along a three-stage logical chain: metadata grounding (Part A), scientific rationale (Part B), and staged classification (Part C).
 
-Vision–language benchmark on **ZTF** alerts brokered by [ALeRCE](https://science.alerce.online/): tabular metadata plus a **single RGB stamp montage** per object (science, reference/template, difference). API reference: [api.alerce.online](https://api.alerce.online/ztf/v1).
+Vision–language benchmark on publicly available [ZTF](https://www.ztf.caltech.edu/) alerts brokered by [ALeRCE](https://science.alerce.online/): tabular metadata plus a single RGB stamp montage per object (science, reference/template, difference). API reference: [api.alerce.online](https://api.alerce.online/ztf/v1).
 
 ## Benchmark data (Hugging Face)
 
