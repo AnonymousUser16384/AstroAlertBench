@@ -39,7 +39,7 @@ The batch scripts under **`run/`** prepend **`api_settings/`**, **`evaluate/`**,
 
 If **`viz/`** is missing from your tree, those runners fall back to **`run._runmeta`** instead of **`viz._runmeta`** for the runmeta sidecar.
 
-## Zero-shot evaluation (structured JSON, Parts A–C)
+## Evaluation (structured JSON, Parts A–C)
 
 **Backends** (env vars in **`.env`** / environment):
 
@@ -68,7 +68,3 @@ python -m evaluate.evaluate --predictions predictions_run1.jsonl --manifest data
 - **Part C gold:** `target_class` (SN, AGN, VS, asteroid, bogus).
 
 **Second-rollout ablation:** `python run/run_second_rollout_benchmark.py …`, then **`python -m evaluate.evaluate_second_rollout_ablation …`** — see **`data_second_roll_out_ablation/METRICS_SPEC.md`** and **`data_second_roll_out_ablation/README.md`**.
-
-## Reports and figures (in-repo)
-
-**`results_comparison/report/`** holds narrative markdown and **`charts/`** PNGs. Figures are checked in for reading and reuse in papers.
